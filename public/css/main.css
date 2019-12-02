@@ -1,0 +1,404 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: #e4b896;
+  background: linear-gradient(90deg, #e4b896 0%, #fab88d 100%);
+  width: 100%;
+  margin: 0 auto; }
+
+.hidden {
+  display: none; }
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+h2, h3 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.svg-graphic {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px; }
+
+.areca-palm {
+  background: #9c616c;
+  background: linear-gradient(90deg, #9c616c 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.mobile-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.areca-palm-water {
+  display: none;
+  flex-direction: row; }
+
+.tempMain {
+  display: none;
+  margin-top: 17px;
+  margin-left: 5px; }
+
+.sunlight {
+  display: none;
+  margin-top: 17px;
+  margin-left: 5px; }
+  .sunlight .sunlight-img-small {
+    padding-left: 5px; }
+    .sunlight .sunlight-img-small img {
+      width: 25px;
+      height: 50px; }
+
+.dracaena {
+  background: #e17784;
+  background: linear-gradient(90deg, #e17784 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.peace-lily {
+  background: #e2b8d0;
+  background: linear-gradient(90deg, #e2b8d0 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.snake-plant {
+  background: #cdf0c9;
+  background: linear-gradient(90deg, #cdf0c9 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.boston-fern {
+  background: #9c616c;
+  background: linear-gradient(90deg, #9c616c 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.english-ivy {
+  background: #e17784;
+  background: linear-gradient(90deg, #e17784 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.spider-plant {
+  background: #e2b8d0;
+  background: linear-gradient(90deg, #e2b8d0 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.rubber-plant {
+  background: #cdf0c9;
+  background: linear-gradient(90deg, #cdf0c9 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.philodendron {
+  background: #9c616c;
+  background: linear-gradient(90deg, #9c616c 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.aloe-vera {
+  background: #e17784;
+  background: linear-gradient(90deg, #e17784 0%, #fab88d 100%);
+  border-bottom: 5px solid white; }
+
+.plant_wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.see-more {
+  margin: 30px auto;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  background: black;
+  border-radius: 35px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer; }
+  .see-more p {
+    margin-top: 15px; }
+
+.popover {
+  margin-top: -180px;
+  margin-left: -30px;
+  display: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 35px; }
+  .popover p {
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+.show-popover {
+  display: block; }
+
+.organization {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.plant-rules h2 {
+  font-size: 35px;
+  text-align: center; }
+
+.plant-rules .arrow {
+  padding-top: 25px;
+  padding-left: 45%; }
+  .plant-rules .arrow img {
+    width: 30px;
+    height: 150px; }
+
+.beggining {
+  height: 350px;
+  border-bottom: 5px solid white; }
+
+.water-img {
+  padding-top: 25px;
+  padding-left: 40%; }
+  .water-img img {
+    width: 75px;
+    height: 100px; }
+
+.three-water {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.three-sunlight {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.two-water {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.one-water {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.water-img-small {
+  padding-left: 5px; }
+  .water-img-small img {
+    width: 25px;
+    height: 50px; }
+
+.sunlight-img-small {
+  padding-left: 10px; }
+  .sunlight-img-small img {
+    width: 35px;
+    height: 60px; }
+
+.water {
+  border-bottom: 5px solid white;
+  padding-bottom: 25px; }
+  .water p {
+    padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer; }
+
+@media screen and (min-width: 768px) {
+  .water-img {
+    padding-left: 46%; }
+  .plant-rules .arrow {
+    padding-left: 48%; } }
+
+@media screen and (min-width: 1200px) {
+  .areca-palm-water {
+    display: none;
+    margin-top: 30px;
+    margin-left: 50px; }
+  .tempMain {
+    display: none;
+    margin-top: 30px;
+    margin-left: 20px; }
+  .sunlight {
+    display: none;
+    margin-top: 30px;
+    margin-left: 20px; }
+    .sunlight .sunlight-img-small {
+      padding-left: 5px; }
+      .sunlight .sunlight-img-small img {
+        width: 25px;
+        height: 50px; }
+  body {
+    width: 80%; }
+  h2 {
+    padding-top: 25px;
+    padding-bottom: 0px; }
+  .svg-graphic {
+    margin-left: 30px;
+    margin-bottom: 25px; }
+  .plant-main {
+    width: 60%; }
+  .plant_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .water-img {
+    padding-left: 38%; }
+  .see-more {
+    margin: 75px 150px 0px 0px;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer; }
+    .see-more p {
+      margin-top: 10px; }
+  .popover {
+    margin-top: -100px;
+    margin-left: -100px;
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border-radius: 35px; }
+    .popover p {
+      padding-top: 30px;
+      padding-left: 5px;
+      padding-right: 5px; }
+  .show-popover {
+    display: block; }
+  .plant-main {
+    border-right: 5px solid white; }
+  .organization {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .plant-rules {
+    width: 20%; }
+    .plant-rules h2 {
+      font-size: 35px;
+      text-align: center; }
+    .plant-rules .arrow {
+      padding-top: 25px;
+      padding-left: 45%; }
+      .plant-rules .arrow img {
+        width: 30px;
+        height: 150px; }
+  .beggining {
+    padding-left: 5px;
+    height: 350px;
+    border-bottom: 5px solid white; }
+  .three-water {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .three-sunlight {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .two-water {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .one-water {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .water-img-small {
+    padding-left: 5px; }
+    .water-img-small img {
+      width: 25px;
+      height: 50px; }
+  .sunlight-img-small {
+    padding-left: 10px; }
+    .sunlight-img-small img {
+      width: 35px;
+      height: 60px; }
+  .water {
+    border-bottom: 5px solid white;
+    padding-bottom: 25px; }
+    .water p {
+      padding-top: 25px;
+      font-family: 'Bebas Neue', cursive;
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      cursor: pointer; }
+  .mobile-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .areca-palm {
+    padding-right: 20px; }
+  .dracaena {
+    padding-right: 20px; }
+  .peace-lily {
+    padding-right: 20px; }
+  .snake-plant {
+    padding-right: 20px; }
+  .boston-fern {
+    padding-right: 20px; }
+  .english-ivy {
+    padding-right: 20px; }
+  .spider-plant {
+    padding-right: 20px; }
+  .rubber-plant {
+    padding-right: 20px; }
+  .philodendron {
+    padding-right: 20px; }
+  .aloe-vera {
+    padding-right: 20px; } }
